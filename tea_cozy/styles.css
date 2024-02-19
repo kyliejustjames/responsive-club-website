@@ -1,0 +1,99 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+.header {
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    top: 0px;
+    display: block;
+    position: fixed;
+}
+.logo {
+    height: 50px;
+    padding: 10px;
+    align-content: center;
+    float: left;
+}
+.navigation {
+   float: right;
+   height: 100%;
+   margin: 0 auto;
+
+}
+.navigation a {
+    float: left;
+    padding: 20px 20px;
+    height: 100%;
+    display: inline;
+
+}
+.navigation a li {
+    color: seashell;
+    text-decoration: underline;
+    opacity: 0.9;
+    display: inline;
+    float: right;
+    height: 100%;
+}
+.mission-container {
+    background-image: url("specs/img-mission-background.jpg");
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto; 
+    background-position: center;
+    display: flex;
+}
+.text-container {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+.featured-tea {
+    align-items: center;
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+.location-boxes {
+    background-image: url(specs/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+    margin: 15px auto auto auto;
+    background-position: center;
+    padding-top: 20px;
+}
+.box {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    display: inline-block;
+    opacity: 0.8;
+    margin: 20px;
+    display: inline-block;
+}
+.contact {
+    background: black;
+    width: 100%;
+    height: 200px;
+}
+.contact-text {
+    justify-content: center;
+}
+.copyright {
+    float: left;
+}
