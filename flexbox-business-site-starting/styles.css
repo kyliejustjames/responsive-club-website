@@ -1,0 +1,136 @@
+/*Site Colors*/
+/* #e8591e
+   #4d4430
+   #636055
+   #d2cbbe
+
+/*Univeral styles*/
+@font-face {
+    font-family: "Nanum Gothic", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+}
+
+h1, h2, h3, p {
+    font-family: "Nanum Gothic", sans-serif;
+} 
+
+/* top navigation */
+.topnav {
+    background-color: #e8591e;
+    overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #3b2b17;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Nanum Gothic", sans-serif;
+ }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #4d4430;
+    color: #d2cbbe;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color:  #d2cbbe;
+    color: white;
+}
+
+.main-container {
+    background-image: url(/Users/kyliejames/code_academy/projects/flexbox-business-site-starting/resources/s-o-c-i-a-l-c-u-t-sBqiND8rQ8s-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    margin: 0px auto 0px auto;
+}
+
+.main-text {
+    background-color: #4d4430;
+    width: 100%;
+    margin: auto;
+}
+
+.main-text, h1, h2 {
+    color: #d2cbbe;
+    text-align: center;
+}
+
+.gallery-container {
+    margin: 60px 4px;
+}
+
+.gallery-images {
+    align-items: center;
+    display: inline-flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto 40px auto 40px;
+}
+
+.gallery-images img {
+    height: 300px;
+    width: auto;
+    padding: 10px 10px;
+}
+
+.friends-images > h3 {
+    color: #4d4430;
+    text-align: center;
+}
+
+.friends-images > p {
+    color: #4d4430;
+    text-align: center;
+}
+
+.friends-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.friends-images {
+    margin: auto 40px;
+}
+
+.friends-images img {
+    height: 200px;
+    width: auto;
+    padding: 10px 10px;
+}
+
+.contact-container {
+    background-image: url(/Users/kyliejames/code_academy/projects/flexbox-business-site-starting/resources/s-o-c-i-a-l-c-u-t-sBqiND8rQ8s-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    margin: 0px auto 0px auto;
+    align-items: center;
+}
+
+.contact
+h3, p {
+    color: #d2cbbe;
+    justify-content: center;
+}
+
+.copyright {
+    float: left;
+}
+  

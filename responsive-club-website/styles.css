@@ -1,0 +1,123 @@
+/*site colors
+#90F1EF
+#FFD6E0
+#FFEF9F
+#C1FBA4
+#7BF1A8 */
+
+/*Univeral Styles*/
+
+@font-face {
+    font-family: Poppins, sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+}
+
+h1, h2, h3, h4, p {
+    font-family: Poppins, sans-serif;
+    color: #333;
+}
+
+/*top navigation*/
+
+.navigation {
+    background-color: #FFD6E0;
+    overflow: hidden;
+}
+
+/*Style links navigation*/
+.navigation a {
+    float: right;
+    color: #333;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Poppins, sans-serif;
+}
+
+.navigation a:hover {
+    background-color: #90F1EF;
+    color: #333333;
+}
+
+.main-container {
+    background-image: url(/Users/kyliejames/code_academy/projects/responsive-club-website/resources/taelynn-christopher-pfSNx3Z12K8-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 21.875rem;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    margin: 0rem auto 0rem auto;
+}
+
+.main-text {
+    background-color: #FFEF9F;
+    opacity: 75%;
+    width: 100%;
+    margin: auto;
+}
+
+.main-text > h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+.gallery-images {
+    background-color: #90F1EF;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+ 
+.gallery-images img {
+    height: 18.75rem;
+    width: auto;
+    padding: 0.875rem;
+}   
+
+.events-container {
+    background-color: #C1FBA4;
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.events {
+    display: inline-block;
+    background-color: #C1FBA4;
+    opacity: 75%;
+    width: 16.25rem;
+    height: auto;
+    text-align: center;
+    padding: 1.25rem;
+    margin: 0.625rem 1.25rem;
+    color: #333;
+    align-content: center;
+}
+
+.contact-container {
+    background-image: url(/Users/kyliejames/code_academy/projects/responsive-club-website/resources/taelynn-christopher-pfSNx3Z12K8-unsplash.jpg);
+    height: 12.5rem;
+    display: flex;   
+}
+.contact {
+    background-color: #7BF1A8;
+    opacity: 75%;
+    display: inline-block;
+    width: 100%;
+    justify-self: center;
+    margin-top: 1.25rem;
+}
+
+.contact > h2 {
+    color: #333;
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    div.example {
+      font-size: 50px;
+      padding: 50px;
+      border: 8px solid black;
+      background: yellow;
+    }
+  }
